@@ -89,8 +89,8 @@ p {
 	text-align: center;
 	font-size: 1.3vw;
 	letter-spacing: 3px;
-	background-color: white;
-	color:black;
+	background-color: #F6A5F3;
+	color:rgb(255, 255, 255);
 	width: 95%;
 	height: 80%;
   }
@@ -168,7 +168,7 @@ p {
 .button {
 	touch-action: manipulation;
 	background-color: black;
-    border: .3vw black solid;
+    border: .3vw rgb(255, 255, 255) solid;
 	color: white;
 	font-size: 1.4vw;
 	line-height: 1.7vw;
@@ -189,15 +189,15 @@ p {
 }
 
 .title-link:hover {
-	color: #F5CD03;
+	color: #a1ffb1;
 }
 
 .button:hover {
-	background-color: #FDCD00;
+	background-color: #a1ffb1;
 }
 
 .link:hover {
-	color: #F5CD03;
+	color: #a1ffb1;
 }
 
 .section-title{

@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: center;
     color: white !important;
-    background-color: #447CFC;
+    background-color: #9bb9ff;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -219,7 +219,7 @@
 }
 
 #copyright-div  a:hover {
-	color: #F5CD03;
+	color: #a1ffb1;
 }
 
 #copyright-div img {
