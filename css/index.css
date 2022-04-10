@@ -26,6 +26,9 @@
 .market-logo-img{
     width: 65%
 }
+.market-logo{
+    margin: auto;
+}
 #wagmi-logo {
     width: 45%;
     height: 80%;
