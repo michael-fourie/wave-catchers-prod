@@ -32,8 +32,10 @@ function showLive() {
     $('#live-collections').removeClass('hidden');
     $("#scroll-indicator-past").addClass("hidden");
     $("#scroll-indicator-live").removeClass("hidden");
+    $("#live-button").removeClass("inactive");
     $("#live-button").addClass("active");
     $("#past-button").removeClass("active");
+    $("#past-button").addClass("inactive");
 }
 
 function showPast() {
@@ -41,8 +43,10 @@ function showPast() {
     $('#past-collections').removeClass('hidden');
     $("#scroll-indicator-past").removeClass("hidden");
     $("#scroll-indicator-live").addClass("hidden");
+    $("#past-button").removeClass("inactive");
     $("#past-button").addClass("active");
     $("#live-button").removeClass("active");
+    $("#live-button").addClass("inactive");
 }
 
 function showLiveRaffles() {
