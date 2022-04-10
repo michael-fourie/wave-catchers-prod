@@ -107,7 +107,7 @@
     width: 22%;
     margin: 1%;
     background-color: white;
-    text-align: center;
+    text-align: left;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -166,11 +166,10 @@
 
 .collection-img {
     margin-top: -5%;
-    margin: auto;
 	border-style: solid;
 	border-color: black;
-	border-radius: 10px;
-	border-width: .5vw;
+	border-radius: 20px;
+	border-width: .2vw;
     width: 30%;
     /* min-width: 200px;
     min-height: 200px; */

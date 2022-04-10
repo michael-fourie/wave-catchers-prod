@@ -357,7 +357,6 @@ const loadCollections = async() => {
                         }
                     }
                     let fakeJSX = `<div class="partner-collection" id="project-${id}">
-                                    <div class="timer" id="timer-${id}">Loading<span class="one">.</span><span class="two">.</span><span class="three">.</span></div>
                                     <img class="collection-img" src="${collection["image"]}">
                                     <div class="collection-info">
                                         <h3><a class="clickable link" href="${collection["website"]}" target="_blank" style="text-decoration: none;">${collection["name"]}⬈</a></h3>
@@ -380,10 +379,6 @@ const loadCollections = async() => {
                         button = `<button disabled class="mint-prompt-button button purchased">SOLD OUT</button>`;
                     }
                     let fakeJSX = `<div class="partner-collection" id="project-${id}">
-                                    <a href="${collection["twitter"]}" target="_blank">
-                                        <img class="collection-twitter" src="./images/twitter-white.png">
-                                    </a>
-                                    <img class="collection-network" src="${networkLogo}">
                                     <img class="collection-img" src="${collection["image"]}">
                                     <div class="collection-info">
                                         <h3><a class="clickable link" href="${collection["website"]}" target="_blank" style="text-decoration: none;">${collection["name"]}⬈</a></h3>
