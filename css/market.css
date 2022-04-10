@@ -66,6 +66,7 @@
 }
 
 #live-collections button, #past-collections button {
+    background-color: #a1ffb1;
     width: 90%;
 }
 
@@ -163,11 +164,9 @@
 }
 
 .collection-img {
-    width: 30%;
     /* min-width: 200px;
     min-height: 200px; */
-    width: 200px;
-    height: 200px;
+    width: 300px;
     /* max-height: 300px;
     max-width: 300px; */
     background-color: white;
@@ -406,6 +405,7 @@ h4 {
 
     #live-collections button, #past-collections button {
         width: 90%;
+        background-color: #a1ffb1;
     }
 
     /* Approval section*/
