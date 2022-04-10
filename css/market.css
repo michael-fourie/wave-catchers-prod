@@ -428,6 +428,7 @@ h4 {
 
     #approval-button {
         width: 90%;
+        background-color: black;
     }
 
     #live-button {
