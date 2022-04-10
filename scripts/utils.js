@@ -52,15 +52,19 @@ function showPast() {
 function showLiveRaffles() {
     $('#past-raffles').addClass('hidden');
     $('#live-raffles').removeClass('hidden');
+    $("#live-button").removeClass("inactive");
     $("#live-button").addClass("active");
     $("#past-button").removeClass("active");
+    $("#past-button").addClass("inactive");
 }
 
 function showPastRaffles() {
     $('#live-raffles').addClass('hidden');
     $('#past-raffles').removeClass('hidden');
+    $("#past-button").removeClass("inactive");
     $("#past-button").addClass("active");
     $("#live-button").removeClass("active");
+    $("#live-button").addClass("inactive");
 }
 
 function toggleMenu() {

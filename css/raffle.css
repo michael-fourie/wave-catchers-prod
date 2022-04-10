@@ -40,6 +40,15 @@
 #discord-popup #content input {
     width: initial !important;
 }
+.raffle-flex{
+    display: flex;
+}
+.live-past-border{
+    background-color: white;
+    padding: 10px;
+    border: .5vw solid black;
+    border-radius: 15px;
+}
 
 #live-raffles, #past-raffles {
     text-align: center;
