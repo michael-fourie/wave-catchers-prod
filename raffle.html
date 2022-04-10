@@ -73,22 +73,12 @@
             <div id="header" class="header hide-on-desktop">
                <div class="header-menu">
                   <a href="./index.html" class="link">
-                     HOME
+                     MARKETPLACE
                   </a>
                </div>
                <div class="header-menu">
-                  <a href="./coco.html" class="link">
-                     $COCO
-                  </a>
-               </div>
-               <div class="header-menu">
-                  <a href="./market.html" class="link">
-                     MARKET
-                  </a>
-               </div>
-               <div class="header-menu">
-                  <a href="./lookup.html" class="link">
-                     LOOKUP
+                  <a href="./fossil.html" class="link">
+                     $FOSSIL
                   </a>
                </div>
                <div class="header-menu">
@@ -107,18 +97,18 @@
    <div id="approval-container" class="section body-section body-1 wf-section hidden">
       <div id="approval" class="container w-container box" style="text-align: center;">
          <h1>APPROVE MARKETPLACE</h1><br>
-         <h3>In order to enter raffles with <img class="coco-icon" src="images/fossil.png">, you must first approve the V2 marketplace contract to spend your <img class="coco-icon" src="images/coco.png">.</h3><br>
+         <h3>In order to enter raffles with <img class="coco-icon" src="images/fossil.png">, you must first approve the V2 marketplace contract to spend your <img class="coco-icon" src="images/fossil.png">.</h3><br>
          <button class="button" id="approval-button" onclick="approveCocoToMarket()">APPROVE V2</button>
       </div>
    </div>
    <div class="section body-section body-1 wf-section">
       <div id="selector-div">
          <button id="live-button" class="button active" onclick="showLiveRaffles()">LATEST<span id="num-live"></span></button>
-         <button id="past-button" class="button" onclick="showPastRaffles()">PAST<span id="num-past"></span></button>
+         <button id="past-button" class="button inactive" onclick="showPastRaffles()">PAST<span id="num-past"></span></button>
       </div>
       <div id="live-raffles">
          <div id="raffle" class="container w-container box"  style="text-align: center;">
-            <h1><span class="hide-on-mobile">$COCO</span> RAFFLE</h1>
+            <h1><span class="hide-on-mobile">$FOSSIL</span> RAFFLE</h1>
             <div id="raffle-div-container">
                <div class="raffle-div">
                   <h2 id="raffle-title">???</h2>
@@ -128,8 +118,8 @@
                   </h2>
                </div>
                <div class="raffle-div">
-                  <h2>ENTRY PRICE: <span id="base-raffle-price">-</span> <img src="./images/coco.png" class="coco-icon"></h2>
-                  <h2 id="total-price" class="hidden">TOTAL: <span id="raffle-price">-</span> <img src="./images/coco.png" class="coco-icon"></h2>
+                  <h2>ENTRY PRICE: <span id="base-raffle-price">-</span> <img src="./images/fossil.png" class="coco-icon"></h2>
+                  <h2 id="total-price" class="hidden">TOTAL: <span id="raffle-price">-</span> <img src="./images/fossil.png" class="coco-icon"></h2>
                   <h2 id="max-msg"></h2>
                   <h2 id="your-entries"></h2>
                   <h2 id="total-entries"></h2>
@@ -166,11 +156,11 @@
             <button id="lookup-button" class="button" onclick="enterRaffle()">ENTER</button>
       </div>
    </div> -->
-   <img src="images/WebsiteBG-mobile.png" loading="lazy" alt="" class="banner-img fixed-banner hide-on-desktop">
-   <img src="images/WebsiteBG.png" loading="lazy" alt="" class="banner-img fixed-banner hide-on-mobile">
+   <img src="images/WebsiteBG-2.png" loading="lazy" alt="" class="banner-img fixed-banner hide-on-desktop">
+   <img src="images/WebsiteBG-2.png" loading="lazy" alt="" class="banner-img fixed-banner hide-on-mobile">
    <div class="coco-balance-float">
       <div>Balance: <span id="coco-balance"><span class="one">.</span><span class="two">.</span><span class="three">.</span></span></div>
-      <img class="coco-icon" src="./images/coco.png">
+      <img class="coco-icon" src="./images/fossil.png">
    </div>
    <div>
       <div class="section body-section footer wf-section">
