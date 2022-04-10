@@ -26,10 +26,6 @@
 
 /* End approval section */
 
-.active {
-	background-color: #a1ffb1;
-}
-
 #selector-div {
     display: flex;
     justify-content: center;
@@ -295,7 +291,6 @@ h4 {
 
 .button {
     height: initial;
-    background-color: black;
 }
 
 .mint-button {
@@ -582,7 +577,9 @@ h4 {
         line-height: 3vh;
     }
 }
-
+.active {
+	background-color: #a1ffb1;
+}
 
 @media screen and (min-width: 1900px) {
 
