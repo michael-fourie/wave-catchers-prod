@@ -168,7 +168,6 @@ p {
 
 .button {
 	touch-action: manipulation;
-	background-color: #a1ffb1;
     border: .3vw rgb(255, 255, 255) solid;
 	color: white;
 	font-size: 1.4vw;
