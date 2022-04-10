@@ -40,9 +40,9 @@ const cocoImgURL = "https://raw.githubusercontent.com/michael-fourie/wave-catche
 /*********************************END CONFIG************************************/
 
 if (window.ethereum == undefined) {
-    displayErrorMessage('Use a web3 enabled browser to claim $COCO!');
+    displayErrorMessage('Use a web3 enabled browser to claim $FOSSIL!');
     $("#available-wavecatchers-images").empty();
-    $("#available-wavecatchers-images").append("<br><h3>No Wave Catchers available...</h3>");
+    $("#available-wavecatchers-images").append("<br><h3>No Wagmisaurs available...</h3>");
 }
 
 const provider = new ethers.providers.Web3Provider(window.ethereum,"any");
