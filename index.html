@@ -114,8 +114,10 @@
 
    <div class="section body-section body-1 wf-section">
       <div id="selector-div">
-         <button id="live-button" class="button active" onclick="showLive()">LIVE<span id="num-live"></span></button>
-         <button id="past-button" class="button" onclick="showPast()">PAST<span id="num-past"></span></button>
+         <div class="live-past-border">
+            <button id="live-button" class="button active" onclick="showLive()">LIVE<span id="num-live"></span></button>
+            <button id="past-button" class="button" onclick="showPast()">PAST<span id="num-past"></span></button>
+         </div>
 
          <div class="coco-balance-float">
             <div>Balance: <span id="coco-balance"><span class="one">.</span><span class="two">.</span><span class="three">.</span></span></div>
