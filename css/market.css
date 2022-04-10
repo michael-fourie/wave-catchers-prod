@@ -206,6 +206,7 @@ h4 {
 }
 
 .inside-text {
+    margin-left: -3%;
     font-size: 1vw;
     line-height: 1vw;
     color: white;
