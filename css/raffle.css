@@ -1,15 +1,11 @@
 #current-raffle-img {
     width: 60%;
-    border-style: solid;
-	border-color: black;
-	border-radius: 20px;
-	border-width: .5vw;
     background-color: black;
 }
 
 #raffle-div-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,6 +36,7 @@
 #discord-popup #content input {
     width: initial !important;
 }
+
 .raffle-flex{
     display: flex;
 }
