@@ -165,7 +165,6 @@
 }
 
 .collection-img {
-    margin-top: -5%;
 	border-style: solid;
 	border-color: black;
 	border-radius: 20px;
@@ -432,6 +431,14 @@ h4 {
 
     #approval-button {
         width: 90%;
+    }
+
+    #live-button {
+        border: none;
+    }
+
+    #past-button {
+        border: none;
     }
 
     /* End approval section*/
