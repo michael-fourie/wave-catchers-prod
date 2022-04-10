@@ -66,6 +66,7 @@
     align-items: stretch;
     margin: auto;
     width: 100%;
+    background-color: #a1ffb1;
 }
 
 #live-collections button, #past-collections button {
@@ -166,10 +167,6 @@
 }
 
 .collection-img {
-	border-style: solid;
-	border-color: black;
-	border-radius: 20px;
-	border-width: .2vw;
     width: 30%;
     /* min-width: 200px;
     min-height: 200px; */

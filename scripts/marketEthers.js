@@ -20,7 +20,7 @@ const newMarketAbi = () => {
 
 const etherscanBase = `https://etherscan.io/tx/`;
 const correctChain = 1;
-const cocoImgURL = "https://github.com/saintmaxi/wave-catchers/blob/main/images/coco.png?raw=true";
+const cocoImgURL = "https://raw.githubusercontent.com/michael-fourie/wave-catchers-prod/main/images/fossil.png";
 const V2_START = 33;
 const data_file = "./data/partner-collections.json";
 

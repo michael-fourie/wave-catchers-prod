@@ -2,7 +2,7 @@ const ethers = require('ethers');
 
 const infuraKey = process.env.INFURA_KEY;
 const provider = new ethers.providers.InfuraProvider("mainnet", infuraKey);
-const cocoImgURL = "https://github.com/saintmaxi/wave-catchers/blob/main/images/coco.png?raw=true";
+const cocoImgURL = "https://raw.githubusercontent.com/michael-fourie/wave-catchers-prod/main/images/fossil.png";
 
 const marketAddress = "0x85057EF13bFd8c1faF70768Bfe870c0c2e8E61cC";
 const marketAbi = () => { 

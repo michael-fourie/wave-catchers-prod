@@ -25,7 +25,7 @@ const cocoAbi = () => {
 
 const etherscanBase = `https://etherscan.io/tx/`;
 const correctChain = 1;
-const cocoImgURL = "https://github.com/saintmaxi/wave-catchers/blob/main/images/coco.png?raw=true";
+const cocoImgURL = "https://raw.githubusercontent.com/michael-fourie/wave-catchers-prod/main/images/fossil.png";
 const V2_START = 33;
 const data_file = "./data/partner-collections.json";
 
@@ -105,7 +105,7 @@ const getCocoEarnedByID = async() => {
             }
             else {
                 let pendingCoco = Number(formatEther(await coco.getRewardsForId(id))).toFixed(2);
-                $("#pending-coco").html(`UNCLAIMED: ${pendingCoco} <img src="./images/coco.png" class="coco-icon">`);
+                $("#pending-coco").html(`UNCLAIMED: ${pendingCoco} <img src="./images/fossil.png" class="coco-icon">`);
             }
         }
         $("#spacer").remove();

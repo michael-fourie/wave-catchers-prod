@@ -16,7 +16,7 @@ const cocoAbi = () => {
 const etherscanBase = `https://etherscan.io/tx/`;
 const correctChain = 1;
 const baseImageURI = "https://wavecatchers.mypinata.cloud/ipfs/QmSMd9zpdeJSr2rzLvcvrKtfDRvuz8PYhk7GqCNumsa4H7/";
-const cocoImgURL = "https://github.com/saintmaxi/wave-catchers/blob/main/images/coco.png?raw=true";
+const cocoImgURL = "https://raw.githubusercontent.com/michael-fourie/wave-catchers-prod/main/images/fossil.png";
 
 /*********************************************************************************/
 /********************************DEV CONFIG********************************/
@@ -79,7 +79,7 @@ const importCocoToWallet = async() => {
             address: cocoAddress,
             symbol: 'COCO',
             decimals: 18,
-            image: 'https://github.com/saintmaxi/wave-catchers/blob/main/images/coco.png?raw=true',
+            image: 'https://raw.githubusercontent.com/michael-fourie/wave-catchers-prod/main/images/fossil.png',
           },
         },
       });
