@@ -32,6 +32,7 @@
 }
 
 #selector-div button {
+    color: black;
     font-size: 3vw;
     line-height: 3vw;
     padding: 1vw;
@@ -439,6 +440,7 @@ h4 {
 
 
     #selector-div button {
+        color: black;
         font-size: 3.4vh;
         line-height: 3.4vh;
         padding: 1vw;
