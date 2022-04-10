@@ -295,6 +295,7 @@ h4 {
 
 .button {
     height: initial;
+    background-color: black;
 }
 
 .mint-button {
