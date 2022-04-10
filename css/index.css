@@ -27,7 +27,9 @@
     width: 65%
 }
 .market-logo{
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10%;
 }
 #wagmi-logo {
     width: 45%;
