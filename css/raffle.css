@@ -49,6 +49,9 @@
     border: .5vw solid black;
     border-radius: 15px;
 }
+.live-raffle-div{
+    margin-top: 5%;
+}
 
 #live-raffles, #past-raffles {
     text-align: center;
