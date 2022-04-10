@@ -23,6 +23,9 @@
     border: .5vw solid black;
     border-radius: 15px;
 }
+.market-logo-img{
+    width: 65%
+}
 #wagmi-logo {
     width: 45%;
     height: 80%;
